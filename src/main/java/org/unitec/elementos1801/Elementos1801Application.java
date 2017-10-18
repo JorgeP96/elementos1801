@@ -36,7 +36,7 @@ public class Elementos1801Application implements CommandLineRunner{
 
         System.out.println("Buscar por titulo");
         for(Mensaje mensa:repoMensa.findByTitulo("Nuevo titulo")){
-            System.out.println(mensa)
+            System.out.println(mensa);
         }
     }
 }
