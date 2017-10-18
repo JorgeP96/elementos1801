@@ -1,0 +1,5 @@
+CREATE TABLE mensaje(
+                       ID INT PRIMARY KEY AUTO_INCREMENT,
+                       TITULO VARCHAR(20),
+                       CUERPO VARCHAR(50)
+                       );
